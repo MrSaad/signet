@@ -15,10 +15,11 @@ All of the remaining libraries are in requirements.txt and can be installed usin
 ```
 pip install -d requirements.txt
 ```
+Everything was tested on Mac OSX 10.11 (El Capitan), as well as Ubuntu 14.04 and 16.04.
 
 ### Download datasets
 
-The 7 datasets used for this work, as well as the protein sequence files can [downloaded from this link](https://drive.google.com/open?id=0B8wwj9L0MgN-YWFjczIxQjd0ZG8).  Extract all folders and files into the data/ folder.
+The 7 datasets used for this work, as well as the protein sequence files, can [downloaded from this link](https://drive.google.com/open?id=0B8wwj9L0MgN-YWFjczIxQjd0ZG8).  Extract all folders and files into the data/ folder.
 
 ### Download Results
 
@@ -28,7 +29,7 @@ If you do not wish to run the program and only need the output results, you can 
 
 ### Computing Signatures
 
-Before you can run SigNet, The Protein Signatures must be computed for the protein sequence files. Run compute_signatures.py to generate these:
+Before you can run SigNet, the Protein Signatures must be computed for the protein sequence files. Run compute_signatures.py to generate these:
 
 ```
 python compute_signatures.py
