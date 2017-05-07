@@ -175,7 +175,7 @@ if __name__ == '__main__':
 	required.add_argument('-d', '--dataset', type=str, required=True,
 		help='string. the dataset to use.', choices=possible_datasets, metavar='')
 	required.add_argument('-s', '--split', type=int, required=True,
-		help='integer. the dataset split to use. value between 1 and 41.',
+		help='integer. the dataset split to use. value between 1 and 40.',
 		choices=range(1,41), metavar='')
 	
 	#optional arguments
