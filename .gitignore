@@ -1,0 +1,5 @@
+.DS_Store
+data/*
+!data/README.md
+results/*
+!results/README.md
