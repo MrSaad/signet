@@ -129,7 +129,6 @@ def run_signet(dataset, split, val_split=0.05, batch_size=128, epochs=5):
 	##############################################################################
 
 	### TRAIN ###
-	exit()
 	if (valid_x1.shape[0] == 0):
 		model.fit([train_x1, train_x2], train_y, batch_size=batch_size, 
 			epochs=epochs, verbose=1)
