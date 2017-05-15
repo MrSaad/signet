@@ -62,6 +62,8 @@ The above command will train SigNet on split 1 (out of 40) of the MINT dataset, 
 Full usage is below:
 
 ```
+usage: signet.py [-h] -d  -s  [-v] [-b] [-e]
+
 required arguments:
   -d , --dataset      string. the dataset to use.
   -s , --split        integer. the dataset split to use. value between 1 and
@@ -75,4 +77,29 @@ optional arguments:
 ```
 ### Combining Results
 
-still need to write this section... 
+To get combined scores for SigNet and SPRINT, use the combine_results.py program. Example usage:
+
+```
+python combine_results.py --dataset=biogrid --ctype=1
+```
+
+The above command will create a combined model for test type C1 of the Biogrid dataset and test it across all 40 splits. The model, as well as results from the 40 splits, will be saved in the results/Combined/ directory for the appropriate dataset and test type. 
+
+Full usage is below:
+
+```
+usage: combine_results.py [-h] -d  -c  [-v] [-b] [-e]
+
+required arguments:
+  -d , --dataset      string. the dataset to use.
+  -c , --ctype        integer. the test type to use. C1, C2 or C3 (enter value
+                      between 1-3)
+
+optional arguments:
+  -v , --val_split    float. proportion of the training samples to use as
+                      cross-validation samples. default=0.1
+  -b , --batch_size   integer. batch size to use during training. default=64
+  -e , --epochs       integer. the number of epochs to train. default=50
+```
+
+For further inquiries feel free to contact me at [saadem3000@gmail.com](mailto:saadem3000@gmail.com).
