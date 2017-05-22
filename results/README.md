@@ -1,3 +1,3 @@
 ## results
 
-This folder should contain all the output scores for SigNet, as well as output scores for SPRINT, and Combined output scores. You can download all these results [here](https://drive.google.com/open?id=0B8wwj9L0MgN-YjBRRnpFRTZtalE). See main README for more information.
+This folder should contain all the output scores for SigNet, as well as output scores for SPRINT, and the Combined method. You can download all these results [here](https://drive.google.com/open?id=0B8wwj9L0MgN-YjBRRnpFRTZtalE). Additionally, you can download the results for all the methods mentioned in the paper from [this link](https://drive.google.com/open?id=0B8wwj9L0MgN-aFl4WlJoNlBtQ2s). See main README for more information.

@@ -23,7 +23,7 @@ The 7 datasets used for this work, as well as the protein sequence files, can [d
 
 ### Download Results
 
-If you do not wish to run the program and only need the output results, you can download the results [from this link](https://drive.google.com/open?id=0B8wwj9L0MgN-YjBRRnpFRTZtalE). This contains results for SigNet, SPRINT, as well the Combined results for both methods. Extract all 3 folders into the results/ folder. 
+If you do not wish to run the program and only need the output results, you can download the results [from this link](https://drive.google.com/open?id=0B8wwj9L0MgN-YjBRRnpFRTZtalE). This contains results for SigNet, SPRINT, as well the Combined results for both methods. Extract all 3 folders into the results/ folder. Additionally, you can download the results for all the methods mentioned in the paper from [this link](https://drive.google.com/open?id=0B8wwj9L0MgN-aFl4WlJoNlBtQ2s).
 
 ## Training and Testing
 
